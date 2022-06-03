@@ -48,38 +48,6 @@ let naoSouGato = !souGato;
 console.log("sou um gato?",naoSouGato);
 */
 
-//---------------------------------------------------------------------------------------------------------//
-// PRIMEIRO DESAFIO
-//minha solução:
-/*
-let a = "azul";
-let b = "vermelho";
-function trocaCor(){
-    a = "vermelho";
-    b = "azul";
-};
-
-console.log(a);
-console.log(b);
-
-trocaCor();
-
-console.log(a);
-console.log(b);
-
-// solução do video:
-
-let a = "azul";
-let b = "vermelho";
-let c = a;
-a = b;
-b = c;
-
-console.log(a);
-console.log(b);
-*/
-//---------------------------------------------------------------------------------------------------------//
-
 //EXERCICIO 6 IF ELSE
 /*
 let gato = "prur";
