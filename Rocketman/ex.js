@@ -118,10 +118,21 @@ do {
 */
 
 //loop com for..in
-const cores = ["vermelho", "verde", "azul"]
+/*
+const cores = ["vermelho", "verde", "azul"];
 
 for (let indice in cores) {
-    console.log(indice);
+    console.log(indice, cores[indice]);
 };
+*/
+
+//loop for..of
+/*
+const cores = ["vermelho", "verde", "azul"];
+
+for(let cor of cores){
+    console.log(cor)
+}
+*/
 //EXERCICIO 9
 

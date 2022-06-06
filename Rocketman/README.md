@@ -84,5 +84,5 @@ condiçao primeiro executa depois
 3 - do...while
 executa uma vez depois olha a condiçao
 4 - for..in
-para objetos ou arrays
+melhor para objetos ou arrays
 5 - for..of
