@@ -100,10 +100,103 @@ function fizzBuzz(entrada) {
 */
 
 //QUARTO DESAFIO MEDIDOR DE VELOCIDADE
-radar();
+//minha soluçao:
+/*
+radar(70);
 
-function radar(velocidade, pontos){
-    if (velocidade <= 70){
-        console.log("ok");
+function radar(velocidade) {
+    if (velocidade <= 70) {
+        console.log(velocidade);
+    } else {
+        const pontos = ((velocidade - 70) / 5);
+        if (pontos >= 12) {
+            console.log("carteira suspensa");
+        } else {
+            console.log("pontos: ", pontos);
+        }
     }
+}
+*/
+
+//solução do video:
+/*
+verificarVelocidade(85);
+
+function verificarVelocidade(velocidade) {
+    const velocidadeMaxima = 70;
+    const kmPorPonto = 5;
+    if (velocidade <= velocidadeMaxima) {
+        console.log("Ok");
+    } else {
+        const pontos = Math.floor((velocidade - velocidadeMaxima) / kmPorPonto);
+        if (pontos >= 12) {
+            console.log("carteira suspensa")
+        } else {
+            console.log("pontos", pontos)
+        }
+    }
+}
+*/
+
+//QUINTO DESAFIO PAR OU IMPAR
+//minha solução:
+/*
+parOuImpar(77);
+
+function parOuImpar(numFinal) {
+    for (let num = 0; num <= numFinal; num++) {
+        if (num % 2 == 0) {
+            console.log(num + " é par!")
+        } else {
+            console.log(num + " é impar!")
+        }
+    }
+}
+*/
+
+//solução do video:
+/*
+
+igual a minha, finalmente
+
+*/
+
+//SEXTO DESAFIO ENCONTRE O STRING
+//aprendi fazendo junto, nao consegui fazer sozinho de primeira
+/*
+const caixa = {
+    tamanho: "90cm",
+    tipo: "caixa de copos",
+    copos: "vidro",
+    nCopos: 15
+}
+conteudo(caixa);
+function conteudo(caixa) {
+    for (propriedade in caixa) {
+        if (typeof caixa[propriedade] === "string") {
+            console.log(propriedade, caixa[propriedade])
+        }
+    }
+}
+
+*/
+
+//SETIMO DESAFIO SOMA MULTIPLOS DE 3 E 5
+//munha solução:
+soma(15)
+
+function soma(numFinal) {
+    let mult3 = 0;
+    let mult5 = 0;
+    let resultFinal = 0;
+    for (let num = 0; num <= numFinal; num++) {
+        if (num % 3 === 0) {
+            mult3 = num + mult3;
+        } else if (num % 5 === 0) {
+            mult5 = num + mult5;
+        }
+        const result = mult3 + mult5
+        resultFinal = result;
+    }
+    console.log(resultFinal);
 }
