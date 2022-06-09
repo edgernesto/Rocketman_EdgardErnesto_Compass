@@ -183,6 +183,7 @@ function conteudo(caixa) {
 
 //SETIMO DESAFIO SOMA MULTIPLOS DE 3 E 5
 //munha solução:
+/*
 soma(15)
 
 function soma(numFinal) {
@@ -200,3 +201,4 @@ function soma(numFinal) {
     }
     console.log(resultFinal);
 }
+*/
