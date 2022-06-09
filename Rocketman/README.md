@@ -1,5 +1,9 @@
-Olá ese projeto ensina você a usar o Git
-isso é uma alteraçao
+para começar, abra o arquivo home.html em live server(extensao do vscode)
+dentro do arquivo home voce pode comentar as linhas dos scripts que vc nao quer ver no navegador, para o console mais limpo.
+
+o arquivo ex.js são somente exercícios para fixação.
+
+A pasta Rocketman é focada em meus estudos pessoais e desafios para aprendizado, tudo o que vai encontrar aqui, são anotações pessoais sobre meus estudos
 
 VARIÁVEIS:
 
