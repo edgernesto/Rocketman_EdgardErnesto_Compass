@@ -134,5 +134,16 @@ for(let cor of cores){
     console.log(cor)
 }
 */
-//EXERCICIO 9
+//EXERCICIO 9 FACTORY FUNCTION
+
+function criarGato(raca, idade, tamanho) {
+    return {
+        raca,
+        idade,
+        tamanho,
+        chamar() {
+            console.log("pspspspspspspsps")
+        }
+    }
+}
 
